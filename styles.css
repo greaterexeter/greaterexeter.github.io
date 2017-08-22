@@ -3612,47 +3612,55 @@ ul {
   padding-left: 15px;
   padding-left: 1.5rem; }
 
+nav {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e1e1; }
+
+nav .navbar-header {
+  background: url("images/icon.png") left top no-repeat; }
+
+nav h1 span {
+  position: absolute; }
+
 header {
   padding-top: 100px;
   padding-top: 10rem; }
 
 nav {
-  padding: 8px 0 8px;
-  padding: 0.8rem 0 0.8rem;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #e0e1e1; }
+  padding: 8px 0 7px;
+  padding: 0.8rem 0 0.7rem; }
 
 nav .navbar-header {
-  background-image: url("images/icon.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-  -webkit-background-size: auto 60px;
-  -webkit-background-size: auto 6rem;
-          background-size: auto 60px;
-          background-size: auto 6rem;
-  height: 60px;
-  height: 6rem; }
+  -webkit-background-size: auto 50px;
+  -webkit-background-size: auto 5rem;
+          background-size: auto 50px;
+          background-size: auto 5rem;
+  height: 50px;
+  height: 5rem; }
+
+nav .navbar-header .navbar-toggle {
+  margin-top: 8px;
+  margin-top: 0.8rem; }
 
 nav h1 {
-  margin-left: 70px;
-  margin-left: 7rem;
-  margin-top: 13px;
-  margin-top: 1.3rem; }
+  margin-left: 60px;
+  margin-left: 6rem;
+  margin-top: 8px;
+  margin-top: 0.8rem; }
 
 nav h1 span {
-  position: absolute;
-  left: 92px;
-  left: 9.2rem;
-  top: 38px;
-  top: 3.8rem; }
+  left: 82px;
+  left: 8.2rem;
+  top: 33px;
+  top: 3.3rem; }
 
 @media (min-width: 768px) {
   header {
     padding-top: 110px;
     padding-top: 11rem; }
   nav {
-    padding: 9px 0 9px;
-    padding: 0.9rem 0 0.9rem; }
+    padding: 9px 0 8px;
+    padding: 0.9rem 0 0.8rem; }
   nav .navbar-header {
     -webkit-background-size: auto 60px;
     -webkit-background-size: auto 6rem;
@@ -3660,24 +3668,27 @@ nav h1 span {
             background-size: auto 6rem;
     height: 60px;
     height: 6rem; }
+  nav .navbar-header .navbar-toggle {
+    margin-top: 12px;
+    margin-top: 1.2rem; }
   nav h1 {
     margin-left: 70px;
     margin-left: 7rem;
-    margin-top: 11px;
-    margin-top: 1.1rem; }
+    margin-top: 10px;
+    margin-top: 1rem; }
   nav h1 span {
     left: 90px;
     left: 9rem;
-    top: 38px;
-    top: 3.8rem; } }
+    top: 37px;
+    top: 3.7rem; } }
 
 @media (min-width: 992px) {
   header {
     padding-top: 120px;
     padding-top: 12rem; }
   nav {
-    padding: 12px 0 9px;
-    padding: 1.2rem 0 0.9rem; }
+    padding: 10px 0 9px;
+    padding: 1rem 0 0.9rem; }
   nav .navbar-header {
     -webkit-background-size: auto 70px;
     -webkit-background-size: auto 7rem;
@@ -3685,16 +3696,19 @@ nav h1 span {
             background-size: auto 7rem;
     height: 70px;
     height: 7rem; }
+  nav .navbar-header .navbar-toggle {
+    margin-top: 18px;
+    margin-top: 1.8rem; }
   nav h1 {
     margin-left: 80px;
     margin-left: 8rem;
-    margin-top: 12px;
-    margin-top: 1.2rem; }
+    margin-top: 10px;
+    margin-top: 1rem; }
   nav h1 span {
     left: 100px;
     left: 10rem;
-    top: 44px;
-    top: 4.4rem; } }
+    top: 42px;
+    top: 4.2rem; } }
 
 nav svg {
   fill: #313439;
@@ -3713,16 +3727,15 @@ nav svg {
   background-color: transparent; }
 
 .navbar-default .nav {
-  margin-top: 7px;
-  margin-top: 0.7rem; }
+  margin-top: 10px;
+  margin-top: 1rem; }
+
+.navbar-default .nav li {
+  margin: 0; }
 
 .navbar-default .nav li a.icon {
   padding-top: 7px;
   padding-top: 0.7rem; }
-
-.navbar-default .nav li {
-  margin: 3px 0;
-  margin: 0.3rem 0; }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
@@ -3774,8 +3787,6 @@ nav svg {
   background-color: transparent;
   border-color: #313439;
   margin: 0;
-  margin-top: 15px;
-  margin-top: 1.5rem;
   -webkit-transition: all .35s;
   -o-transition: all .35s;
   transition: all .35s; }
