@@ -3468,14 +3468,14 @@ body {
   color: #0d0d0e; }
 
 a {
-  color: #313439;
+  color: #0d0d0e;
   -webkit-transition: all .35s;
   -o-transition: all .35s;
   transition: all .35s; }
 
 main a,
 aside a {
-  border-bottom: 1px dotted #313439; }
+  border-bottom: 1px solid #d4d4d4; }
 
 a:hover,
 a:focus,
@@ -3731,7 +3731,8 @@ nav svg {
   margin-top: 1rem; }
 
 .navbar-default .nav li {
-  margin: 0; }
+  margin-bottom: 3px;
+  margin-bottom: 0.3rem; }
 
 .navbar-default .nav li a.icon {
   padding-top: 7px;
