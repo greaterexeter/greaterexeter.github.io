@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 720 720">
+    <circle cx="480" cy="365" r="240" fill="rgba(160,30,1,.33)" /> <!-- red eddc -->
+    <circle cx="310" cy="250" r="240" fill="rgba(9,34,76,.33)" /> <!-- blue mddc -->
+    <circle cx="360" cy="360" r="360" fill="rgba(84,100,0,.33)" /> <!-- green dcc-->
+    <circle cx="360" cy="360" r="240" fill="rgba(188,228,0,.33)" /> <!-- lime ecc -->
+    <circle cx="300" cy="460" r="240" fill="rgba(70,103,154,.33)" /> <!-- aqua tdc-->
+</svg>
